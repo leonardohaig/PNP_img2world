@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<CameraMatrix type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>f</dt>
+  <data>
+    2857.1 0.0 506.4522
+    0.0 2854.6 419.783
+    0.0 0.0 1.0
+  </data>
+</CameraMatrix>
+<CameraDistCoeff type_id="opencv-matrix">
+  <rows>1</rows>
+  <cols>5</cols>
+  <dt>f</dt>
+  <data>
+        0.0523 -0.9052 0. 0. 0.
+    </data>
+</CameraDistCoeff>
+<CameraHeight>1800.0</CameraHeight><!--相机高度，单位mm--><!--1.5?-->
+<!--CameraPitch>0.339855</CameraPitch><!--相机俯仰角，单位:度°-->
+<!--CameraYaw>-5.01577</CameraYaw><!--偏航角,单位:度°-->
+<CameraPitch>90.7043</CameraPitch><!--相机俯仰角，单位:度°-->
+<CameraYaw>5.51577</CameraYaw><!--偏航角,单位:度°-->
+<CameraRoll>-0.339855</CameraRoll><!--翻滚角,单位:度°-->
+<translationWX>258.916</translationWX><!--偏移量，单位：mm-->
+<translationWY>-912.411</translationWY><!--偏移量，单位：mm-->
+<translationWZ>78.2222</translationWZ><!--偏移量，单位：mm-->
+<imgPointMatrix type_id="opencv-matrix"><!--单位：像素，x,y-->
+  <rows>4</rows>
+  <cols>1</cols>
+  <dt>"2f"</dt>
+  <data>
+    520. 640. 
+	554. 608. 
+	956. 608. 
+	985. 640.
+	</data>
+	</imgPointMatrix>
+<groundPointMatrix type_id="opencv-matrix"><!--单位：mm,x,y,z-->
+  <rows>4</rows>
+  <cols>1</cols>
+  <dt>"3f"</dt>
+  <data>
+    -1650. 20000. -1800. 
+	-1650.	23000. -1800. 
+	1650. 23000. -1800. 
+	1650. 20000. -1800.
+	</data>
+</groundPointMatrix>
+<RMatrix type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    9.9535227030488338e-001 9.6037851160275772e-002
+    -7.1126045462465703e-003 -5.9040954800298195e-003
+    -1.2861984803861736e-002 -9.9989985048677144e-001
+    -9.6119715227820257e-002 9.9529457975587399e-001
+    -1.2235189132203528e-002</data></RMatrix>
+<TMatrix type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>1</cols>
+  <dt>d</dt>
+  <data>
+    -1.6953037184860750e+002 6.8007626679174791e+001
+    9.3396163490285107e+002</data></TMatrix>
+</opencv_storage>
